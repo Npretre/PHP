@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title></title>
-</head>
-<body>
-  <?php
-  $number=0;
-  while ($number < 15) {
-    echo 'on y est presque <br>';
-    $number++;
-  }
-  ?>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>exercice1</title>
+  </head>
+  <body>
+    <?php
+    if (isset($_GET['semaine'])){ // On a le nom et le prénom
+      echo  $_GET['semaine'];
+    }else {
+      echo 'Il faut renseigner les paramètres';
+    }
+    ?>
+  </body>
 </html>

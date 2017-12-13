@@ -5,12 +5,14 @@
   <title></title>
 </head>
 <body>
+
   <?php
-  $number=20;
-  while ($number > 0) {
-    echo 'C\'est presque bon <br>';
-    $number--;
-  }
-  ?>
+  $region['60'] = 'Oise';
+  $region['59'] = 'Nord';
+  $region['80'] = 'Somme';
+  $region['02'] = 'Aisne';
+  $region['62'] = 'Pas-de-Calais';
+  echo $region['59'];
+   ?>
 </body>
 </html>

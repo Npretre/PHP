@@ -6,11 +6,13 @@
 </head>
 <body>
   <?php
-  $number=0;
-  while ($number < 15) {
-    echo 'on y est presque <br>';
-    $number++;
-  }
+  $region = array (
+    $region['60'] = 'Oise';
+    $region['59'] = 'Nord';
+    $region['80'] = 'Somme';
+    $region['02'] = 'Aisne';
+    $region['62'] = 'Pas-de-Calais';
+    );
   ?>
 </body>
 </html>
